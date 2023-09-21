@@ -1,22 +1,25 @@
 package com.dlsdlworld.spring.api.controller;
 
-import com.dlsdlworld.spring.api.dto.TestTable;
+import com.dlsdlworld.spring.api.service.ApiService;
 import com.dlsdlworld.spring.api.service.TestService;
 import jakarta.annotation.Resource;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/test")
-public class TestController {
-    @Resource(name="testService")
-    TestService testService;
+@RequestMapping("/api")
+@Slf4j
+public class ApiController {
 
-    @GetMapping("/page")
-    public Iterable<TestTable> TestRestApi(){
-        return testService.getTestTable();
+    @Resource(name="apiService")
+    ApiService apiService;
+
+    @RequestMapping("/test")
+    public String apiTest(){
+        log.info("apiTest");
+        return "api Test Datas";
     }
 }
