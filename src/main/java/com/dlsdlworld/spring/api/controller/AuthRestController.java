@@ -1,7 +1,6 @@
 package com.dlsdlworld.spring.api.controller;
 
 import com.dlsdlworld.spring.api.cacheDto.AppCache;
-import com.dlsdlworld.spring.api.cacheRepository.AppCacheRepository;
 import com.dlsdlworld.spring.api.exception.*;
 import com.dlsdlworld.spring.api.security.UserDetails;
 import com.dlsdlworld.spring.api.types.InvalidApiException;
@@ -55,13 +54,13 @@ public abstract class AuthRestController {
     private String clientSecret;
     @Value("${web.secure-cookie:true}")
     private Boolean enableSecureCookie;
-    private AppCacheRepository appCacheRepository;
+//    private AppCacheRepository appCacheRepository;
     protected RestTemplate restTemplate = new RestTemplate();
 
-    @Autowired
-    public AuthRestController(AppCacheRepository appCacheRepository) {
-        this.appCacheRepository = appCacheRepository;
-    }
+//    @Autowired
+//    public AuthRestController(AppCacheRepository appCacheRepository) {
+//        this.appCacheRepository = appCacheRepository;
+//    }
 
     @PostMapping({"/login"})
     protected ResponseEntity<Map<String, Object>> commonLogin(HttpServletResponse response, @RequestBody UserDetails userDetails) throws IOException {
@@ -98,17 +97,17 @@ public abstract class AuthRestController {
         return new ResponseEntity((Map)responseEntity.getBody(), HttpStatus.OK);
     }
 
-    @PostMapping({"/login/appProcessed"})
-    protected ResponseEntity<Map<String, Object>> appProcessedLogin(HttpServletResponse response, @RequestBody appCacheSearchParam param) throws IOException {
-        AppCache cache = (AppCache)Optional.ofNullable(this.appCacheRepository.findByPkgNmAndDeployTypeAndPlatformType(param.getPkgNm(), param.getDeployType().name(), param.getPlatformType().name())).orElseThrow(() -> {
-            return new InvalidApiException("/login/appProcessed", "앱 정보를 찾을 수 없습니다.");
-        });
-        if (cache.getIsProcessed() != null && cache.getIsProcessed()) {
-            return this.commonLogin(response, UserDetails.builder().appId(1L).userAccount("care@hc.com").userPwd("P@ssw0rd").loginType(LoginTypes.PASSWORD).build());
-        } else {
-            throw new InvalidApiException("/login/appProcessed", "심사 중인 앱의 앱 정보가 아닙니다. ");
-        }
-    }
+//    @PostMapping({"/login/appProcessed"})
+//    protected ResponseEntity<Map<String, Object>> appProcessedLogin(HttpServletResponse response, @RequestBody appCacheSearchParam param) throws IOException {
+//        AppCache cache = (AppCache)Optional.ofNullable(this.appCacheRepository.findByPkgNmAndDeployTypeAndPlatformType(param.getPkgNm(), param.getDeployType().name(), param.getPlatformType().name())).orElseThrow(() -> {
+//            return new InvalidApiException("/login/appProcessed", "앱 정보를 찾을 수 없습니다.");
+//        });
+//        if (cache.getIsProcessed() != null && cache.getIsProcessed()) {
+//            return this.commonLogin(response, UserDetails.builder().appId(1L).userAccount("care@hc.com").userPwd("P@ssw0rd").loginType(LoginTypes.PASSWORD).build());
+//        } else {
+//            throw new InvalidApiException("/login/appProcessed", "심사 중인 앱의 앱 정보가 아닙니다. ");
+//        }
+//    }
 
     @PostMapping({"/refreshToken"})
     protected ResponseEntity<Map<String, Object>> refreshToken(HttpServletRequest request, HttpServletResponse response) throws Exception {
