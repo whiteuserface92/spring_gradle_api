@@ -1,12 +1,12 @@
 package com.dlsdlworld.spring.api.controller;
 
 import com.dlsdlworld.spring.api.service.ApiService;
-import com.dlsdlworld.spring.api.service.TestService;
-import jakarta.annotation.Resource;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 @RestController
 @RequiredArgsConstructor

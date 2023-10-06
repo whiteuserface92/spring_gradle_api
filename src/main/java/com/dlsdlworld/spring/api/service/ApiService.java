@@ -1,8 +1,9 @@
 package com.dlsdlworld.spring.api.service;
 
 import com.dlsdlworld.spring.api.repository.ApiRepository;
-import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 @Service
 public class ApiService {

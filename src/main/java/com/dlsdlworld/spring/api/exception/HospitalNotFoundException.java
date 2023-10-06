@@ -1,0 +1,17 @@
+package com.dlsdlworld.spring.api.exception;
+
+import com.dlsdlworld.spring.api.types.ErrorTypes;
+
+/**
+ * API 호출시 발생되는 예외
+ */
+public class HospitalNotFoundException extends RuntimeException {
+
+    /**
+     * 생성자
+     */
+    public HospitalNotFoundException(String hospitalCd) {
+        super(ErrorTypes.HOSPITAL_NOT_FOUND, hospitalCd);
+    }
+
+}

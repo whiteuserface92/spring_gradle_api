@@ -1,0 +1,25 @@
+package com.dlsdlworld.spring.api.exception;
+
+import com.dlsdlworld.spring.api.types.ErrorTypes;
+
+/**
+ * 캐시에서 정보를 찾지 못했을때 발생되는 에러
+ */
+public class IllegalApiMessageException extends RuntimeException {
+
+    /**
+     * 생성자
+     */
+    public IllegalApiMessageException(String part) {
+        super(ErrorTypes.ILLEGA_API_MESSAGE, part);
+    }
+
+    /**
+     * 생성자
+     * @param cause
+     */
+    public IllegalApiMessageException(Throwable cause) {
+        super(ErrorTypes.ILLEGA_API_MESSAGE, cause);
+    }
+
+}
