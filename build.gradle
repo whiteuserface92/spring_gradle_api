@@ -39,7 +39,7 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis
 	implementation group: 'org.springframework.data', name: 'spring-data-redis', version: '2.6.0'
 	// https://mvnrepository.com/artifact/org.springframework/spring-core
-	implementation group: 'org.springframework', name: 'spring-core', version: '5.3.14'
+	implementation group: 'org.springframework', name: 'spring-core', version: '5.3.16'
 	// https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
 	implementation group: 'jakarta.validation', name: 'jakarta.validation-api', version: '2.0.2'
 	// https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
@@ -54,6 +54,17 @@ dependencies {
 	implementation group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.2.0.Final'
 	// https://mvnrepository.com/artifact/com.googlecode.libphonenumber/libphonenumber
 	implementation group: 'com.googlecode.libphonenumber', name: 'libphonenumber', version: '8.12.20'
+	// https://mvnrepository.com/artifact/org.springframework.security.oauth/spring-security-oauth2
+	implementation group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.3.4.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-rest-core
+	implementation group: 'org.springframework.data', name: 'spring-data-rest-core', version: '3.6.0'
+	// https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+	implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.0'
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
+	implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+	// https://mvnrepository.com/artifact/io.lettuce/lettuce-core
+	implementation group: 'io.lettuce', name: 'lettuce-core', version: '6.1.5.RELEASE'
+
 }
 
 tasks.named('test') {
