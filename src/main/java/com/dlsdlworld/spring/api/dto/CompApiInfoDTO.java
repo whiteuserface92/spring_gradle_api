@@ -5,11 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : hskim
- * Date : 2020/06/24
- * Time : 15:39 오후
  */
 
 @Data

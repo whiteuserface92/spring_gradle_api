@@ -24,11 +24,6 @@ import java.util.Set;
 
 /**
  * 병원별 옵션 사이트 맵 핸들러
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/23
- * Time : 13:24
  */
 @Slf4j
 @Component

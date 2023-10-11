@@ -10,11 +10,6 @@ import java.io.Serializable;
 import java.util.Objects;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/11
- * Time : 20:15
  */
 @Immutable
 @DynamicInsert

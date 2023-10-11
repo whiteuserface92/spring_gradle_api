@@ -15,11 +15,6 @@ import java.util.Set;
 
 /**
  * 병원 메뉴 정보를 redis에 저장하기 위한 클래스
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 8:43 오후
  */
 @Data
 @NoArgsConstructor

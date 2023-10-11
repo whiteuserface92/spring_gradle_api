@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * 병원별 옵션 사이트 맵
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2020/01/12
- * Time : 12:53 오후
  */
 @Getter
 @Setter

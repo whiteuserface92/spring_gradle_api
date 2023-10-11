@@ -13,11 +13,7 @@ import java.util.Optional;
 import java.util.Set;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : HeeJin Ahn
- * Date : 2020/11/06
- * Time : 15:15
+
  */
 @RepositoryRestResource
 public interface BaseAdminAccessHistoryRepository<T extends BaseAdminAccessHistory> extends PagingAndSortingRepository<T, Long> {

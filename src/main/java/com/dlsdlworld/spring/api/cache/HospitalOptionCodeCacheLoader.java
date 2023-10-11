@@ -11,12 +11,7 @@ import java.util.Set;
 
 /** 
  * 병원 옵션코드 리로딩
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/02
- * Time : 2:48 오후
- */
+ * */
 @Slf4j
 @Service
 public class HospitalOptionCodeCacheLoader {

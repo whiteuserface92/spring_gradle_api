@@ -10,11 +10,6 @@ import java.io.Serializable;
 
 /**
  * 제증명상품정보
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/30
- * Time : 6:53 오전
  */
 @Getter
 @Setter

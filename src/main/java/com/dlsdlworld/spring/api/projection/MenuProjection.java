@@ -12,11 +12,7 @@ import java.util.Set;
 
 /**
  * 메뉴정보 프로젝션
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/02/01
- * Time : 21:28
+
  */
 @Projection(name = "menu_projection1", types = {Menu.class, Role.class})
 public interface MenuProjection {

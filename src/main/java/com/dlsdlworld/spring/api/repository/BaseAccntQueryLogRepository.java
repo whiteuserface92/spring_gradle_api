@@ -13,11 +13,7 @@ import java.util.Optional;
 import java.util.Set;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/30
- * Time : 8:06 오전
+
  */
 @RepositoryRestResource
 public interface BaseAccntQueryLogRepository<T extends BaseAccntQueryLog> extends PagingAndSortingRepository<T, Long> {

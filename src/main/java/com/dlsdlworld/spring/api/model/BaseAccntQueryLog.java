@@ -9,11 +9,6 @@ import java.time.LocalDateTime;
 
 /**
  *
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : sungjin.park
- * Date : 2020/06/30
- * Time : 7:23 오전
  */
 @Getter
 @Setter

@@ -9,11 +9,6 @@ import javax.persistence.Lob;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 1:32 오후
  */
 @Getter
 @Setter

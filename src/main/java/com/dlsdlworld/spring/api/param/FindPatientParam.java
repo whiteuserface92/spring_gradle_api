@@ -5,11 +5,7 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/06/04
- * Time : 3:18 오후
+
  */
 @Data
 class FindPatientParam {

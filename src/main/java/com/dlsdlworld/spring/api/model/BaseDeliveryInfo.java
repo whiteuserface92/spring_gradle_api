@@ -11,11 +11,6 @@ import java.time.LocalDateTime;
 
 /**
  * 택배사정보
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : kyunghun.kim
- * Date : 2020/04/28
- * Time : 3:41 오후
  */
 @Getter
 @Setter

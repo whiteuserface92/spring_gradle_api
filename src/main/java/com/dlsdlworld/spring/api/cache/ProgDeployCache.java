@@ -11,11 +11,6 @@ import java.io.Serializable;
  * 레디스 프로그램 디플로이용 캐시
  * 단순 URL 저장용으로 사용되며, dev1에서 다운받아서 서버에서 설치한다.
  * 두대 일경우 두대다 다 진행 시켜야 한다.
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2022-02-19
- * Time : 오후 12:10
  */
 @Data
 @NoArgsConstructor

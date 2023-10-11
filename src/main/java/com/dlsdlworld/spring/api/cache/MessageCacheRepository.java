@@ -7,11 +7,6 @@ import java.util.Set;
 
 /**
  * 다국어정보 저장소
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/11
- * Time : 15:06
  */
 @Repository
 public interface MessageCacheRepository extends PagingAndSortingRepository<MessageCache, Long> {

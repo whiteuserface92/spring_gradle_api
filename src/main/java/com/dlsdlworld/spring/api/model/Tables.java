@@ -1,11 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/14
- * Time : 10:10 오전
  */
 public final class Tables {
 

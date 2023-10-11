@@ -8,11 +8,7 @@ import javax.validation.constraints.Pattern;
 import java.time.LocalDateTime;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/04
- * Time : 6:37 오후
+
  */
 @Data
 public class PostHospitalParam {

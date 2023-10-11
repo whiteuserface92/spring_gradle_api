@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : sungjin.park
- * Date : 2020/05/29
- * Time : 4:43 오후
  */
 @Getter
 @Setter

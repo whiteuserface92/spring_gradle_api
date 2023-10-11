@@ -5,11 +5,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * 메뉴정보 캐시 저장소
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/29
- * Time : 14:57
  */
 @Repository
 public interface MenuCacheRepository extends CrudRepository<MenuCache, Long> {

@@ -13,11 +13,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2022/02/15
- * Time : 15:46
  */
 public interface HospitalOptionCodeRepository extends BaseHospitalOptionCodeRepository<HospitalOptionCode>{
 

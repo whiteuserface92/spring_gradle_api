@@ -16,11 +16,7 @@ import java.util.Optional;
 import java.util.Set;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/11
- * Time : 20:15
+
  */
 @RepositoryRestResource
 public interface BaseTermsRepository<T extends BaseTerms> extends PagingAndSortingRepository<T, Long> {

@@ -3,11 +3,7 @@ package com.dlsdlworld.spring.api.param;
 import lombok.Data;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2020/05/019
- * Time : 3:57 오후
+
  */
 @Data
 public class PostHospitalOpcdParam {

@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * 전화번호안내
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 1:17 오후
  */
 @Getter
 @Setter

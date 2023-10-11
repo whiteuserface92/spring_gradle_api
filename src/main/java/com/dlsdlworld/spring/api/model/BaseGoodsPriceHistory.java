@@ -9,11 +9,6 @@ import java.time.LocalDate;
 
 /**
  * 상품가격이력
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/30
- * Time : 7:00 오전
  */
 @Getter
 @Setter

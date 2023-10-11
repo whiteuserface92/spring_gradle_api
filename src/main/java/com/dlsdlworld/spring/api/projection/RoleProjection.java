@@ -12,11 +12,7 @@ import java.util.Set;
 
 /**
  * 역할정보 프로젝션
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/02/04
- * Time : 1:17 오후
+
  */
 @Projection(name = "role_projection1", types = { Role.class, Privilege.class })
 public interface RoleProjection {

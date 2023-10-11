@@ -10,11 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/30
- * Time : 15:46
  */
 public interface MessageRepository extends BaseMessageRepository<Message>{
 

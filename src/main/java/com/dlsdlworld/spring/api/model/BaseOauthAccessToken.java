@@ -7,11 +7,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * OAuth 인증 토큰
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 1:08 오후
  */
 @Getter
 @Setter

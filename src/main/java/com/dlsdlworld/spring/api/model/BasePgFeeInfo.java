@@ -10,11 +10,6 @@ import java.time.LocalDate;
 
 /**
  * PG 수수료 관리
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/30
- * Time : 6:46 오전
  */
 @Getter
 @Setter

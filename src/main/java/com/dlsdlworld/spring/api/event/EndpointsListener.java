@@ -7,11 +7,6 @@ import org.springframework.context.event.EventListener;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/09
- * Time : 5:44 오후
  */
 @Slf4j
 //@Component

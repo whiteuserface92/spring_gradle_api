@@ -9,11 +9,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 6:34 오후
  */
 @Getter
 @Setter

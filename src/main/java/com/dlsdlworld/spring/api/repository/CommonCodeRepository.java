@@ -16,11 +16,6 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/30
- * Time : 15:46
  */
 public interface CommonCodeRepository extends BaseCommonCodeRepository<CommonCode>{
 

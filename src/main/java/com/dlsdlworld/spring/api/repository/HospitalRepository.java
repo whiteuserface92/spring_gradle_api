@@ -8,11 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * Project : lemoncare-plus-parent
  * Plus 모델링 변경으로 수정
- * Developer : ricky
- * Date : 2020/01/30
- * Time : 15:46
  */
 public interface HospitalRepository extends BaseHospitalRepository<Hospital> {
 

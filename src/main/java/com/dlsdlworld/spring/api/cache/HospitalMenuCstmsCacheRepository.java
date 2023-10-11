@@ -6,11 +6,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * 병원별 메뉴 속성 정보
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020/07/01
- * Time : 04:16
  */
 @Repository
 public interface HospitalMenuCstmsCacheRepository extends CrudRepository<HospitalMenuCstmsCache, Long> {

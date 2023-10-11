@@ -10,11 +10,6 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020-08-11
- * Time : 오후 2:35
  */
 @Slf4j
 @Service

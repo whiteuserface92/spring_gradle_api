@@ -9,10 +9,7 @@ import javax.persistence.Table;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
  * Plus 모델링 변경으로 수정
- * @author hyunmin.kim
- * @since 21-04-29
  */
 @Getter
 @Setter

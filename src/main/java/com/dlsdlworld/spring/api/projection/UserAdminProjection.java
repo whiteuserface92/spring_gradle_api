@@ -12,11 +12,7 @@ import java.util.Set;
 
 /**
  * 관리자 조회용 projection
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon
- * Date : 2020/02/19
- * Time : 13:36
+
  */
 @Projection(name = "user_admin_role_projection", types = {  UserAdmin.class, User.class, Role.class, HospitalAdminMap.class})
 public interface UserAdminProjection {

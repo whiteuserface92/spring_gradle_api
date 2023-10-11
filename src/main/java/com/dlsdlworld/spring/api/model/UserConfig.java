@@ -7,11 +7,6 @@ import lombok.Setter;
 import javax.persistence.*;
 
 /**
- * Project lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer ricky
- * Date 2020/01/12
- * Time 7:06 오후
  */
 @Getter
 @Setter

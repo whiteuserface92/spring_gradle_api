@@ -15,11 +15,6 @@ import java.time.LocalDateTime;
 
 /**
  * 시스템 접근 로그
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/11
- * Time : 20:15
  */
 @Getter
 @Setter

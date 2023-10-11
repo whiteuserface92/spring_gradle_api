@@ -10,11 +10,6 @@ import java.util.List;
 
 /**
  * 그룹정보
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 12:45 오후
  */
 @Getter
 @Setter

@@ -9,11 +9,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import java.util.Optional;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/30
- * Time : 15:46
  */
 public interface AppPlatformRepository extends BaseAppPlatformRepository<AppPlatform> {
 

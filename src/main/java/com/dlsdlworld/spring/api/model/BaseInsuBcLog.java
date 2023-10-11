@@ -10,11 +10,6 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/23
- * Time : 1:31 오후
  */
 @Getter
 @Setter

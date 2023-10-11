@@ -11,11 +11,6 @@ import java.util.Set;
 
 /**
  * 병원메뉴 별 속성 정보를 가지고 있는 캐시
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020/07/01
- * Time : 04:16
  */
 @Data
 @NoArgsConstructor

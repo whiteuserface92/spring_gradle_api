@@ -11,11 +11,6 @@ import java.util.Set;
 
 /** 
  * 사용자 환경설정 전체 리스너 코드 리로딩
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/02
- * Time : 2:48 오후
  */
 @Slf4j
 @Service

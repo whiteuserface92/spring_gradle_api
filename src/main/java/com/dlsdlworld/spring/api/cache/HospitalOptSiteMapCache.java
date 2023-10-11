@@ -11,11 +11,6 @@ import java.io.Serializable;
 
 /**
  * 병원별옵션코드 캐시.
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/11
- * Time : 15:07
  */
 @Data
 @NoArgsConstructor

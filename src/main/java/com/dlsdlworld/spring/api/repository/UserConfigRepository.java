@@ -6,11 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.security.access.prepost.PreAuthorize;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : hansik.shin
- * Date : 2020/05/20
- * Time : 11:53
+
  */
 public interface UserConfigRepository extends BaseUserConfigRepository<UserConfig> {
     @Query(nativeQuery = true,

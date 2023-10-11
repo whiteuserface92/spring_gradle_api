@@ -11,11 +11,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * 앱관리
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 12:26 오후
  */
 @Getter
 @Setter

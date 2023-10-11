@@ -11,11 +11,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 12:18 오후
  */
 @Getter
 @Setter

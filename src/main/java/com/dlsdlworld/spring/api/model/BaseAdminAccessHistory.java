@@ -14,11 +14,6 @@ import java.time.LocalDateTime;
 
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : HeeJin Ahn
- * Date : 2020/11/06
- * Time : 15:15
  */
 @Getter
 @Setter

@@ -11,11 +11,6 @@ import javax.persistence.*;
 
 /**
  * 사용자관리
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 2:28 오후
  */
 @Getter
 @Setter

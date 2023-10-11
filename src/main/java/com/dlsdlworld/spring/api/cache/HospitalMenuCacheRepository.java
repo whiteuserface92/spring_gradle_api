@@ -7,11 +7,6 @@ import java.util.List;
 
 /**
  * 병원 메뉴 캐시정보를 저장하는 저장소
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/30
- * Time : 15:46
  */
 @Repository
 public interface HospitalMenuCacheRepository extends CrudRepository<HospitalMenuCache, Long> {

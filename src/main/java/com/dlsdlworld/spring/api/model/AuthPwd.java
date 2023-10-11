@@ -10,12 +10,8 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 6:36 오후
- */@Getter
+ */
+@Getter
 @Setter
 @Entity
 @Table(name = Tables.AuthPwd)

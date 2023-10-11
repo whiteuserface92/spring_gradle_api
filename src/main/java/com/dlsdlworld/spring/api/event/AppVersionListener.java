@@ -9,11 +9,6 @@ import javax.persistence.PostRemove;
 import javax.persistence.PostUpdate;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020-08-11
- * Time : 오후 12:14
  */
 @Slf4j
 @Component

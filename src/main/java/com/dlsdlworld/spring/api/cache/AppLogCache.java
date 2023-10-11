@@ -10,11 +10,6 @@ import java.time.LocalDateTime;
 
 /**
  * 레디스 로그 저장용 객체로 ID 객체는 사용하지 않음
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2022-02-19
- * Time : 오후 12:10
  */
 @Data
 @NoArgsConstructor

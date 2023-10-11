@@ -10,11 +10,6 @@ import javax.persistence.Basic;
 
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : hskim
- * Date : 2020/07/09
- * Time : 9:44 오전
  */
 
 @Data

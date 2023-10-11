@@ -23,11 +23,6 @@ import java.util.stream.Collectors;
 
 /**
  * 메뉴정보 엔티티 이벤트 핸들러
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/23
- * Time : 13:24
  */
 @Slf4j
 @Component

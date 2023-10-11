@@ -10,11 +10,7 @@ import org.springframework.data.redis.core.index.Indexed;
 import java.time.LocalDateTime;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : woong.jang
- * Date : 2022-02-19
- * Time : 오후 12:10
+
  */
 @Data
 @NoArgsConstructor

@@ -11,11 +11,6 @@ import java.io.Serializable;
 
 /**
  * 사용자 환경설정  캐시
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/29
- * Time : 13:56
  */
 @Data
 @NoArgsConstructor

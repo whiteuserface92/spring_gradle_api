@@ -7,11 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : hansik.shin
- * Date : 2020/05/13
- * Time : 11:09 오전
  */
 @Getter
 @Setter

@@ -7,11 +7,6 @@ import org.springframework.data.rest.core.config.Projection;
 
 /**
  * 앱정보 프로젝션
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/31
- * Time : 17:25
  */
 @Projection(name = "app_hospital_group", types = App.class)
 public interface AppProjection {

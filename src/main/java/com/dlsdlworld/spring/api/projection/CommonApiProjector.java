@@ -15,11 +15,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020-08-19
- * Time : 오전 11:37
+
  */
 
 @Slf4j

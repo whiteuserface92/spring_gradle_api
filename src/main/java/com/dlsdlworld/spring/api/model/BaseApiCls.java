@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * API 업무분류
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 12:14 오후
  */
 @Getter
 @Setter

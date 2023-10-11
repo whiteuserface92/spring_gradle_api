@@ -10,11 +10,7 @@ import java.util.List;
 
 /**
  * 병원정보 프로젝션
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/02/01
- * Time : 18:23
+
  */
 @Projection(name = "hospital_projection1", types = {
         Hospital.class, App.class, Group.class

@@ -7,11 +7,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : hskim
- * Date : 2020/07/06
- * Time : 18:46
  */
 
 @RepositoryRestResource(excerptProjection = AppVersionProjection.class)

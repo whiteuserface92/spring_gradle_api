@@ -9,11 +9,6 @@ import javax.persistence.*;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : hansik.shin
- * Date : 2020/05/08
- * Time : 05:08 오후
  */
 @Getter
 @Setter

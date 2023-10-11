@@ -4,11 +4,6 @@ import com.dlsdlworld.spring.api.model.App;
 import org.springframework.data.rest.core.config.Projection;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020-08-19
- * Time : 오후 12:06
  */
 @Projection(name = "app_simple", types = App.class)
 public interface AppSimpleProjection {

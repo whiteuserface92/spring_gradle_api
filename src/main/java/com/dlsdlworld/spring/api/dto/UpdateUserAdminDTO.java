@@ -8,11 +8,6 @@ import javax.validation.constraints.NotNull;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : suyeon.you
- * Date : 2020-09-09
- * Time : 오전 11:38
  */
 
 @Data

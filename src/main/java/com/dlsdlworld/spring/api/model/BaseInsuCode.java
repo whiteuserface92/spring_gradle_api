@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * 병원코드정의
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/30
- * Time : 8:37 오전
  */
 @Getter
 @Setter

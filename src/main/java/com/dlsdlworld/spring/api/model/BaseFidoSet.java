@@ -8,11 +8,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * 생체인증 설정정보 관리
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/01/12
- * Time : 12:43 오후
  */
 @Getter
 @Setter

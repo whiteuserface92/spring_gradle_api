@@ -10,11 +10,6 @@ import java.time.LocalDate;
 
 /**
  * 실손보험 병원
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/03/20
- * Time : 8:06 오후
  */
 @Getter
 @Setter

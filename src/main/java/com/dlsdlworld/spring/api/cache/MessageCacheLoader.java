@@ -13,11 +13,6 @@ import java.util.Optional;
 import java.util.Set;
 
 /**
- * Project : lemoncare-plus-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/02
- * Time : 2:48 오후
  */
 @Slf4j
 @Service

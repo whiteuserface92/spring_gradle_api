@@ -8,11 +8,6 @@ import org.springframework.data.redis.core.RedisHash;
 import org.springframework.data.redis.core.index.Indexed;
 
 /**
- * Project : lemoncare-parent
- * Created by IntelliJ IDEA
- * Developer : ricky
- * Date : 2020/04/02
- * Time : 2:13 오후
  */
 @Data
 @NoArgsConstructor
