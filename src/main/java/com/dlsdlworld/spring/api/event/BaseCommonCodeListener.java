@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.event;
 
-import com.dlsdlworld.spring.api.cache.CommonCodeCache;
-import com.dlsdlworld.spring.api.cache.CommonCodeCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.CommonCodeCache;
+import com.dlsdlworld.spring.api.cacherepository.CommonCodeCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.basemodel.BaseCommonCode;
 import lombok.extern.slf4j.Slf4j;

@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.event;
 
-import com.dlsdlworld.spring.api.cache.HospitalOptSiteMapCache;
-import com.dlsdlworld.spring.api.cache.HospitalOptSiteMapCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.HospitalOptSiteMapCache;
+import com.dlsdlworld.spring.api.cacherepository.HospitalOptSiteMapCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.model.Hospital;
 import com.dlsdlworld.spring.api.model.HospitalOptSiteMap;

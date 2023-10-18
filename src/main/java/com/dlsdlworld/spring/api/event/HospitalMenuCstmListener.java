@@ -1,8 +1,8 @@
 package com.dlsdlworld.spring.api.event;
 
-import com.dlsdlworld.spring.api.cache.HospitalMenuAttr;
-import com.dlsdlworld.spring.api.cache.HospitalMenuCstmsCache;
-import com.dlsdlworld.spring.api.cache.HospitalMenuCstmsCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.HospitalMenuAttr;
+import com.dlsdlworld.spring.api.cachemodel.HospitalMenuCstmsCache;
+import com.dlsdlworld.spring.api.cacherepository.HospitalMenuCstmsCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.model.HospitalMenuCstm;
 import lombok.extern.slf4j.Slf4j;

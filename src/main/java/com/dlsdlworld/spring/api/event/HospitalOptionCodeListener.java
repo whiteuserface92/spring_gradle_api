@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.event;
 
-import com.dlsdlworld.spring.api.cache.HospitalOptionCodeCache;
-import com.dlsdlworld.spring.api.cache.HospitalOptionCodeCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.HospitalOptionCodeCache;
+import com.dlsdlworld.spring.api.cacherepository.HospitalOptionCodeCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.model.Hospital;
 import com.dlsdlworld.spring.api.model.HospitalOptionCode;

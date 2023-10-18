@@ -1,8 +1,8 @@
 package com.dlsdlworld.spring.api.event;
 
 
-import com.dlsdlworld.spring.api.cache.UserConfigCache;
-import com.dlsdlworld.spring.api.cache.UserConfigCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.UserConfigCache;
+import com.dlsdlworld.spring.api.cacherepository.UserConfigCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.model.UserConfig;
 import com.dlsdlworld.spring.api.repository.HospitalRepository;

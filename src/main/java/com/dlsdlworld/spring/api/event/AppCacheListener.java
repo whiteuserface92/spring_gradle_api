@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.event;
 
-import com.dlsdlworld.spring.api.cache.AppCache;
-import com.dlsdlworld.spring.api.cache.AppCacheRepository;
+import com.dlsdlworld.spring.api.cachemodel.AppCache;
+import com.dlsdlworld.spring.api.cacherepository.AppCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
 import com.dlsdlworld.spring.api.model.App;
 import com.dlsdlworld.spring.api.model.AppPlatform;

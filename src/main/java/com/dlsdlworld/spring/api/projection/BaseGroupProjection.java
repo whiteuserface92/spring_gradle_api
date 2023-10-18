@@ -1,6 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
-import com.dlsdlworld.spring.api.cache.MessageCache;
+import com.dlsdlworld.spring.api.cachemodel.MessageCache;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.util.List;
