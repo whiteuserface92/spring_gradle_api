@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BasePersistableProjection;
 import com.dlsdlworld.spring.api.model.*;
 import com.dlsdlworld.spring.api.types.AuthTypes;
 import org.springframework.data.rest.core.config.Projection;

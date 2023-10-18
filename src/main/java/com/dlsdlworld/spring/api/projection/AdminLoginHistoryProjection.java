@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.projection;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.dlsdlworld.spring.api.model.AdminAccessHistory;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.data.rest.core.config.Projection;
 
 import java.time.LocalDate;

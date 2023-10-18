@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.projection;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.dlsdlworld.spring.api.model.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;
 
@@ -12,7 +12,6 @@ import java.util.Set;
 
 /**
  * 관리자 조회용 projection
-
  */
 @Projection(name = "user_admin_role_projection", types = {  UserAdmin.class, User.class, Role.class, HospitalAdminMap.class})
 public interface UserAdminProjection {

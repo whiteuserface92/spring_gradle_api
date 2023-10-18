@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BaseAuthPwdProjection;
 import com.dlsdlworld.spring.api.model.User;
 import com.dlsdlworld.spring.api.model.UserAuth;
 import com.fasterxml.jackson.annotation.JsonIgnore;

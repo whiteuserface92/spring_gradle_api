@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BaseModifiableProjection;
 import com.dlsdlworld.spring.api.model.Hospital;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;

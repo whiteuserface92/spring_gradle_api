@@ -1,9 +1,9 @@
 package com.dlsdlworld.spring.api.projection;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.dlsdlworld.spring.api.model.Privilege;
 import com.dlsdlworld.spring.api.model.Role;
 import com.dlsdlworld.spring.api.model.RolePrivilege;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.rest.core.config.Projection;
 
 import java.util.ArrayList;

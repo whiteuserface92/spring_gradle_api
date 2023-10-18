@@ -2,9 +2,6 @@
 //
 //import com.dlsdlworld.spring.api.types.PermissionTypes;
 //import com.dlsdlworld.spring.api.utils.AuthUtils;
-//import java.util.Arrays;
-//import java.util.List;
-//
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 //import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -24,6 +21,9 @@
 //import org.springframework.security.oauth2.provider.token.TokenStore;
 //import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 //import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
+//
+//import java.util.Arrays;
+//import java.util.List;
 //
 //@Configuration
 //@EnableWebSecurity

@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+
 import org.hibernate.cfg.AvailableSettings;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Repository;

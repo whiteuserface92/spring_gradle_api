@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BaseUserProjection;
 import com.dlsdlworld.spring.api.model.User;
 import com.dlsdlworld.spring.api.model.UserPatient;
 import com.fasterxml.jackson.annotation.JsonIgnore;

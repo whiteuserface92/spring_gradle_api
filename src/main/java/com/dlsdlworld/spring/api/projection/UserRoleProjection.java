@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BaseModifiableProjection;
 import com.dlsdlworld.spring.api.model.User;
 import com.dlsdlworld.spring.api.model.UserRole;
 import org.springframework.data.rest.core.config.Projection;

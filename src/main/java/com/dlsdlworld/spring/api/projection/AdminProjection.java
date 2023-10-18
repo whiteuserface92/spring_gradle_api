@@ -1,7 +1,8 @@
 package com.dlsdlworld.spring.api.projection;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.dlsdlworld.spring.api.baseprojection.BaseUserProjection;
 import com.dlsdlworld.spring.api.model.User;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.rest.core.config.Projection;
 
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ import java.util.Set;
  * 관리자 조회용 projection
  */
 @Projection(name = "admin_projection", types = { User.class })
-public interface AdminProjection extends BaseUserProjection  {
+public interface AdminProjection extends BaseUserProjection {
 
     @JsonIgnore
     String getMyCi();

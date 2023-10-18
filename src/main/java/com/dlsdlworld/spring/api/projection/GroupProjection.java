@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.projection;
 
+import com.dlsdlworld.spring.api.baseprojection.BaseModifiableProjection;
 import com.dlsdlworld.spring.api.cachemodel.MessageCache;
 import com.dlsdlworld.spring.api.model.Group;
 import com.dlsdlworld.spring.api.model.GroupHospital;
