@@ -18,7 +18,8 @@ import org.springframework.web.client.RestTemplate;
 											"com.dlsdlworld.spring.api.event",
 											"com.dlsdlworld.spring.api.scheduler",
 											"com.dlsdlworld.spring.api.config",
-											"com.dlsdlworld.spring.api.projection"
+											"com.dlsdlworld.spring.api.projection",
+		                                    "com.dlsdlworld.spring.api.baseprojection"
                                            })
 @EnableJpaRepositories({"com.dlsdlworld.spring.api.repository"})
 @EnableConfigurationProperties
