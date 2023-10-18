@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseAppDeviceRepository;
 import com.dlsdlworld.spring.api.model.AppDevice;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseUserRepository;
 import com.dlsdlworld.spring.api.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,7 +13,7 @@ import java.util.Set;
 
 /**
  */
-public interface UserRepository extends BaseUserRepository<User>{
+public interface UserRepository extends BaseUserRepository<User> {
 
     @PreAuthorize("@security.hasPermission({'USER_READ','USER_WRITE','USER_DELETE'})")
     Set<User> findAllByUserNmContainsOrEmailContains(String userNm, String email);

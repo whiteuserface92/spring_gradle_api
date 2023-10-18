@@ -1,7 +1,7 @@
 package com.dlsdlworld.spring.api.cache;
 
 import com.dlsdlworld.spring.api.event.BaseMessageListener;
-import com.dlsdlworld.spring.api.model.BaseMessage;
+import com.dlsdlworld.spring.api.basemodel.BaseMessage;
 import com.dlsdlworld.spring.api.model.Message;
 import com.dlsdlworld.spring.api.repository.MessageRepository;
 import lombok.extern.slf4j.Slf4j;

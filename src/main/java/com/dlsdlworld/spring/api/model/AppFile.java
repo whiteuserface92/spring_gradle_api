@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseModifiable;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang3.builder.ToStringBuilder;

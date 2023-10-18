@@ -3,7 +3,7 @@ package com.dlsdlworld.spring.api.event;
 import com.dlsdlworld.spring.api.cache.CommonCodeCache;
 import com.dlsdlworld.spring.api.cache.CommonCodeCacheRepository;
 import com.dlsdlworld.spring.api.exception.CacheOperationException;
-import com.dlsdlworld.spring.api.model.BaseCommonCode;
+import com.dlsdlworld.spring.api.basemodel.BaseCommonCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

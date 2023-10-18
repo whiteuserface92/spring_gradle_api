@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseHospitalRepository;
 import com.dlsdlworld.spring.api.dto.HospitalUiDTO;
 import com.dlsdlworld.spring.api.model.Hospital;
 import org.springframework.data.jpa.repository.Query;

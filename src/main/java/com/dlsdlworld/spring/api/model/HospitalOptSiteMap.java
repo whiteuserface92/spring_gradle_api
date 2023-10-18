@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseHospitalOptSiteMap;
 import com.dlsdlworld.spring.api.event.HospitalOptSiteMapListener;
 import lombok.Getter;
 import lombok.Setter;

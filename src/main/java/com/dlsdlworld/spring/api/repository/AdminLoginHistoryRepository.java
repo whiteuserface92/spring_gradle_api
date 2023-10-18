@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseAdminLoginHistoryRepository;
 import com.dlsdlworld.spring.api.model.AdminLoginHistory;
 import com.dlsdlworld.spring.api.projection.AdminLoginHistoryProjection;
 import io.lettuce.core.dynamic.annotation.Param;

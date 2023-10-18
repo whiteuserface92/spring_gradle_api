@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseUserMenuRepository;
 import com.dlsdlworld.spring.api.model.UserMenu;
 import com.dlsdlworld.spring.api.types.MenuTypes;
 import org.springframework.security.access.prepost.PreAuthorize;

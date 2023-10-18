@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseMessageRepository;
 import com.dlsdlworld.spring.api.model.Message;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  */
-public interface MessageRepository extends BaseMessageRepository<Message>{
+public interface MessageRepository extends BaseMessageRepository<Message> {
 
     @Transactional(readOnly=true)
     @LogAdminExecution(descriptions = "다국어 조회")

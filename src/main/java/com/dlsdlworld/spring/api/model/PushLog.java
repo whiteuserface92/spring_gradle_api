@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BasePushLog;
 import lombok.Getter;
 import lombok.Setter;
 

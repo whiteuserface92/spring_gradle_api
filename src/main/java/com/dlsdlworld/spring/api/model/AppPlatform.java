@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseAppPlatform;
 import com.dlsdlworld.spring.api.event.AppPlatformListener;
 
 import lombok.Getter;

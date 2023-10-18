@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseHospitalOptionCodeRepository;
 import com.dlsdlworld.spring.api.dto.HospitalOptionCodeDto;
 import com.dlsdlworld.spring.api.model.HospitalOptionCode;
 import org.springframework.data.domain.Page;
@@ -14,7 +15,7 @@ import java.util.List;
 
 /**
  */
-public interface HospitalOptionCodeRepository extends BaseHospitalOptionCodeRepository<HospitalOptionCode>{
+public interface HospitalOptionCodeRepository extends BaseHospitalOptionCodeRepository<HospitalOptionCode> {
 
     /**
      * HospitalCD 제외 : Repo에서 조회시 사용

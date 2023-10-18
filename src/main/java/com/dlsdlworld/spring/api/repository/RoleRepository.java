@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseRoleRepository;
 import com.dlsdlworld.spring.api.model.Role;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  */
-public interface RoleRepository extends BaseRoleRepository<Role>{
+public interface RoleRepository extends BaseRoleRepository<Role> {
 
 
     @Transactional(readOnly=true)

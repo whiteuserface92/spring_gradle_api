@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseHospitalMenuCstm;
 import com.dlsdlworld.spring.api.event.HospitalMenuCstmListener;
 import lombok.Getter;
 import lombok.Setter;

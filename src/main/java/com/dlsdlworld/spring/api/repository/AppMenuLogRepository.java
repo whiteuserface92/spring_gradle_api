@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseAppMenuLogRepository;
 import com.dlsdlworld.spring.api.dto.AppMenuLogDto;
 import com.dlsdlworld.spring.api.model.AppMenuLog;
 import org.springframework.data.domain.Page;

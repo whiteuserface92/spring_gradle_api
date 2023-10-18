@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseIpAccessRepository;
 import com.dlsdlworld.spring.api.model.IpAccess;
 
 import java.util.Set;

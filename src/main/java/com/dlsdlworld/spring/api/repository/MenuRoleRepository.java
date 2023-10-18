@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseMenuRoleRepository;
 import com.dlsdlworld.spring.api.model.MenuRole;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -9,7 +10,7 @@ import java.util.List;
 
 /**
  */
-public interface MenuRoleRepository extends BaseMenuRoleRepository<MenuRole>{
+public interface MenuRoleRepository extends BaseMenuRoleRepository<MenuRole> {
 
 
     @Query(nativeQuery = true,

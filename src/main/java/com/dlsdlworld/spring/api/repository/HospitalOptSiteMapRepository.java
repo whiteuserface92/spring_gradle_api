@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseHospitalOptSiteMapRepository;
 import com.dlsdlworld.spring.api.dto.HospitalOptSiteMapDto;
 import com.dlsdlworld.spring.api.model.HospitalOptSiteMap;
 import com.dlsdlworld.spring.api.model.HospitalOptionCode;

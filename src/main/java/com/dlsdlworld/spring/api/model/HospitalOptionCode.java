@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseHospitalOptionCode;
 import com.dlsdlworld.spring.api.event.HospitalOptionCodeListener;
 import lombok.Getter;
 import lombok.Setter;

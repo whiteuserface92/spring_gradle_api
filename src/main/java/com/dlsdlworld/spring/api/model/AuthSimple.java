@@ -3,6 +3,7 @@ package com.dlsdlworld.spring.api.model;
 /**
  */
 
+import com.dlsdlworld.spring.api.basemodel.BaseAuthSimple;
 import lombok.Getter;
 import lombok.Setter;
 

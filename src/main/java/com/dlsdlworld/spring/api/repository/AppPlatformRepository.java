@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseAppPlatformRepository;
 import com.dlsdlworld.spring.api.model.AppPlatform;
 import com.dlsdlworld.spring.api.projection.AppInfoProjection;
 import com.dlsdlworld.spring.api.types.AppDeploymentTypes;

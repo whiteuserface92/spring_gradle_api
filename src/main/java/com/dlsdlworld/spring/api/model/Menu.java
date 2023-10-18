@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseMenu;
 import com.dlsdlworld.spring.api.event.MenuListener;
 import lombok.Getter;
 import lombok.Setter;

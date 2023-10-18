@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseMenuRepository;
 import com.dlsdlworld.spring.api.model.Menu;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  */
-public interface MenuRepository extends BaseMenuRepository<Menu>  {
+public interface MenuRepository extends BaseMenuRepository<Menu> {
 
     @Transactional(readOnly=true)
     @PreAuthorize("@security.hasPermission({'API_READ'})")

@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseUserConfigRepository;
 import com.dlsdlworld.spring.api.dto.UserConfigDTO;
 import com.dlsdlworld.spring.api.model.UserConfig;
 import org.springframework.data.jpa.repository.Query;

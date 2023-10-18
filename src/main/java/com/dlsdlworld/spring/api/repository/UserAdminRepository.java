@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseUserAdminRepository;
 import com.dlsdlworld.spring.api.model.UserAdmin;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

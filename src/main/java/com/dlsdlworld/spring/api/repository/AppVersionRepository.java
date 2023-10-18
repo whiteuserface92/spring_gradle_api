@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseAppVersionRepository;
 import com.dlsdlworld.spring.api.model.AppVersion;
 import com.dlsdlworld.spring.api.projection.AppVersionProjection;
 import org.springframework.data.domain.Page;

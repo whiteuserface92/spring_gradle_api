@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseCommonCode;
 import lombok.Getter;
 import lombok.Setter;
 

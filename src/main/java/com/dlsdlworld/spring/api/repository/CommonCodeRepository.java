@@ -1,6 +1,7 @@
 package com.dlsdlworld.spring.api.repository;
 
 import com.dlsdlworld.spring.api.aop.LogAdminExecution;
+import com.dlsdlworld.spring.api.baserepository.BaseCommonCodeRepository;
 import com.dlsdlworld.spring.api.dto.CommonCodeDto;
 import com.dlsdlworld.spring.api.model.CommonCode;
 import org.springframework.data.domain.Page;
@@ -17,7 +18,7 @@ import java.util.Set;
 
 /**
  */
-public interface CommonCodeRepository extends BaseCommonCodeRepository<CommonCode>{
+public interface CommonCodeRepository extends BaseCommonCodeRepository<CommonCode> {
 
     @PreAuthorize("@security.hasPermission({'CODE_READ'})")
     @Query("SELECT DISTINCT commonCode.codeCls FROM CommonCode commonCode")

@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseAppVersion;
 import com.dlsdlworld.spring.api.event.AppVersionListener;
 import lombok.Getter;
 import lombok.Setter;

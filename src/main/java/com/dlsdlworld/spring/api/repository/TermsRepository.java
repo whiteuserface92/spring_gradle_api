@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseTermsRepository;
 import com.dlsdlworld.spring.api.model.Terms;
 import com.dlsdlworld.spring.api.projection.TermsProjection;
 import org.springframework.data.domain.Page;

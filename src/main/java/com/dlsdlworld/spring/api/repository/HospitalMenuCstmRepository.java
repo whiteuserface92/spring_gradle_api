@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.repository;
 
+import com.dlsdlworld.spring.api.baserepository.BaseHospitalMenuCsmtRepository;
 import com.dlsdlworld.spring.api.model.HospitalMenuCstm;
 import org.springframework.security.access.prepost.PreAuthorize;
 

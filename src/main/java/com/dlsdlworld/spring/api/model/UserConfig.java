@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseUserConfig;
 import com.dlsdlworld.spring.api.event.UserConfigListener;
 import lombok.Getter;
 import lombok.Setter;

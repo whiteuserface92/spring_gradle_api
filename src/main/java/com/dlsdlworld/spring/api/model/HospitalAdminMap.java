@@ -1,5 +1,6 @@
 package com.dlsdlworld.spring.api.model;
 
+import com.dlsdlworld.spring.api.basemodel.BaseHospitalAdminMap;
 import lombok.Getter;
 import lombok.Setter;
 

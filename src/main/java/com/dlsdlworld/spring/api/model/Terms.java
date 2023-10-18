@@ -3,6 +3,7 @@ package com.dlsdlworld.spring.api.model;
 /**
  */
 
+import com.dlsdlworld.spring.api.basemodel.BaseTerms;
 import lombok.Getter;
 import lombok.Setter;
 
